@@ -22,6 +22,8 @@
 		5C52DA2429923C1500586CC2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C52DA2329923C1500586CC2 /* FirebaseFirestoreSwift */; };
 		5C52DA2629923C1500586CC2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 5C52DA2529923C1500586CC2 /* FirebaseMessaging */; };
 		5C52DA2829923C1500586CC2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 5C52DA2729923C1500586CC2 /* FirebaseStorage */; };
+		5C52DA2A299240D600586CC2 /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52DA29299240D600586CC2 /* ImageUploader.swift */; };
+		5C52DA2C299240E800586CC2 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C52DA2B299240E800586CC2 /* AuthService.swift */; };
 		5C560EC72990C7E7002AF1B7 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C560EC62990C7E7002AF1B7 /* AuthenticationViewModel.swift */; };
 		5C83C5ED2982C7C00003C119 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C83C5EC2982C7C00003C119 /* CustomTextField.swift */; };
 		5CA406022977BCC50089AF55 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA406012977BCC50089AF55 /* FeedController.swift */; };
@@ -44,6 +46,8 @@
 		5C1DD4602977E6CE00392F71 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5C3348C329772A0F00FB2F19 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		5C52DA14299234FF00586CC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5C52DA29299240D600586CC2 /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
+		5C52DA2B299240E800586CC2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		5C560EC62990C7E7002AF1B7 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 		5C83C5EC2982C7C00003C119 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		5CA406012977BCC50089AF55 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		5C3348BD2977293300FB2F19 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				5C52DA29299240D600586CC2 /* ImageUploader.swift */,
+				5C52DA2B299240E800586CC2 /* AuthService.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -279,6 +285,8 @@
 				5CA406062977BCEA0089AF55 /* ImageSelectController.swift in Sources */,
 				5C3348C429772A0F00FB2F19 /* MainTabController.swift in Sources */,
 				5C1DD4612977E6CE00392F71 /* Extensions.swift in Sources */,
+				5C52DA2A299240D600586CC2 /* ImageUploader.swift in Sources */,
+				5C52DA2C299240E800586CC2 /* AuthService.swift in Sources */,
 				5CAF66022977276E00F983E0 /* SceneDelegate.swift in Sources */,
 				5C02F873297DB90E00D0B091 /* RegistrationController.swift in Sources */,
 			);
