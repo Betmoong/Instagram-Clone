@@ -45,6 +45,7 @@
 		5CB723C029B59BF200735C7E /* ProfileHeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB723BF29B59BF200735C7E /* ProfileHeaderViewModel.swift */; };
 		5CB723C329B59F8F00735C7E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB723C229B59F8F00735C7E /* SDWebImage */; };
 		5CB723C529B59F8F00735C7E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB723C429B59F8F00735C7E /* SDWebImageMapKit */; };
+		5CB723C729B6F3E800735C7E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB723C629B6F3E800735C7E /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		5CAF660B2977276F00F983E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5CAF660D2977276F00F983E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB723BF29B59BF200735C7E /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
+		5CB723C629B6F3E800735C7E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				5C08A39E29B46DF0007E9B99 /* Profile */,
 				5C1DD45E2977E59600392F71 /* FeedCell.swift */,
 				5C83C5EC2982C7C00003C119 /* CustomTextField.swift */,
+				5CB723C629B6F3E800735C7E /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				5CA406042977BCD50089AF55 /* SearchController.swift in Sources */,
 				5CA406082977BD050089AF55 /* NotificationController.swift in Sources */,
 				5C560EC72990C7E7002AF1B7 /* AuthenticationViewModel.swift in Sources */,
+				5CB723C729B6F3E800735C7E /* UserCell.swift in Sources */,
 				5CAF66002977276E00F983E0 /* AppDelegate.swift in Sources */,
 				5CA406022977BCC50089AF55 /* FeedController.swift in Sources */,
 				5C08A3A429B4F703007E9B99 /* User.swift in Sources */,
