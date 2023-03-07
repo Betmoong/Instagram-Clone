@@ -11,6 +11,10 @@ class UserCell: UITableViewCell {
     
     // MARK: - Properties
     
+    var viewModel: UserCellViewModel? {
+        didSet { configure() }
+    }
+    
     private let profileImageView: UIImageView = {
         let iv = UIImageView()
         iv.contentMode = .scaleAspectFill
@@ -57,4 +61,15 @@ class UserCell: UITableViewCell {
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    // MARK: - Helpers
+    
+    func configure() {
+        guard let viewModel = viewModel else { return }
+        
+        profileImageView.sd_setImage(with: viewModel.profileImageURL)
+        usernameLabel.text = viewModel.username
+        fullnameLabel.text = viewModel.fullname
+    }
+    
 }

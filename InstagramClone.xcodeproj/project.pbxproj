@@ -46,6 +46,7 @@
 		5CB723C329B59F8F00735C7E /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB723C229B59F8F00735C7E /* SDWebImage */; };
 		5CB723C529B59F8F00735C7E /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5CB723C429B59F8F00735C7E /* SDWebImageMapKit */; };
 		5CB723C729B6F3E800735C7E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB723C629B6F3E800735C7E /* UserCell.swift */; };
+		5CB723C929B72D2500735C7E /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB723C829B72D2500735C7E /* UserCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		5CAF660D2977276F00F983E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CB723BF29B59BF200735C7E /* ProfileHeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderViewModel.swift; sourceTree = "<group>"; };
 		5CB723C629B6F3E800735C7E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		5CB723C829B72D2500735C7E /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 			children = (
 				5C560EC62990C7E7002AF1B7 /* AuthenticationViewModel.swift */,
 				5CB723BF29B59BF200735C7E /* ProfileHeaderViewModel.swift */,
+				5CB723C829B72D2500735C7E /* UserCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				5CB723C029B59BF200735C7E /* ProfileHeaderViewModel.swift in Sources */,
 				5C08A3A229B4F443007E9B99 /* Constants.swift in Sources */,
 				5CA406062977BCEA0089AF55 /* ImageSelectController.swift in Sources */,
+				5CB723C929B72D2500735C7E /* UserCellViewModel.swift in Sources */,
 				5C3348C429772A0F00FB2F19 /* MainTabController.swift in Sources */,
 				5C1DD4612977E6CE00392F71 /* Extensions.swift in Sources */,
 				5C52DA2A299240D600586CC2 /* ImageUploader.swift in Sources */,
