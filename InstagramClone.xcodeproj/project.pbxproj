@@ -40,6 +40,7 @@
 		5CA70FE329B88B92003E3D5B /* UploadPostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA70FE229B88B92003E3D5B /* UploadPostController.swift */; };
 		5CA70FE529B8945E003E3D5B /* InputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA70FE429B8945E003E3D5B /* InputTextView.swift */; };
 		5CA70FE729B9DF64003E3D5B /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA70FE629B9DF64003E3D5B /* PostService.swift */; };
+		5CA70FEA29B9F459003E3D5B /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 5CA70FE929B9F459003E3D5B /* JGProgressHUD */; };
 		5CAF66002977276E00F983E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF65FF2977276E00F983E0 /* AppDelegate.swift */; };
 		5CAF66022977276E00F983E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF66012977276E00F983E0 /* SceneDelegate.swift */; };
 		5CAF66042977276E00F983E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CAF66032977276E00F983E0 /* ViewController.swift */; };
@@ -96,6 +97,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C52DA2629923C1500586CC2 /* FirebaseMessaging in Frameworks */,
+				5CA70FEA29B9F459003E3D5B /* JGProgressHUD in Frameworks */,
 				5C52DA2029923C1500586CC2 /* FirebaseDatabaseSwift in Frameworks */,
 				5C52DA2829923C1500586CC2 /* FirebaseStorage in Frameworks */,
 				5C52DA1A29923C1500586CC2 /* FirebaseAnalyticsSwift in Frameworks */,
@@ -262,6 +264,7 @@
 				5CB723C229B59F8F00735C7E /* SDWebImage */,
 				5CB723C429B59F8F00735C7E /* SDWebImageMapKit */,
 				5CA70FE029B884DF003E3D5B /* YPImagePicker */,
+				5CA70FE929B9F459003E3D5B /* JGProgressHUD */,
 			);
 			productName = InstagramClone;
 			productReference = 5CAF65FC2977276E00F983E0 /* InstagramClone.app */;
@@ -295,6 +298,7 @@
 				5C52DA1629923C1500586CC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				5CB723C129B59F8F00735C7E /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				5CA70FDF29B884DF003E3D5B /* XCRemoteSwiftPackageReference "YPImagePicker" */,
+				5CA70FE829B9F459003E3D5B /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
 			);
 			productRefGroup = 5CAF65FD2977276E00F983E0 /* Products */;
 			projectDirPath = "";
@@ -587,6 +591,14 @@
 				version = 5.2.1;
 			};
 		};
+		5CA70FE829B9F459003E3D5B /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = exactVersion;
+				version = 2.2.0;
+			};
+		};
 		5CB723C129B59F8F00735C7E /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
@@ -647,6 +659,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 5CA70FDF29B884DF003E3D5B /* XCRemoteSwiftPackageReference "YPImagePicker" */;
 			productName = YPImagePicker;
+		};
+		5CA70FE929B9F459003E3D5B /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5CA70FE829B9F459003E3D5B /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
 		};
 		5CB723C229B59F8F00735C7E /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
