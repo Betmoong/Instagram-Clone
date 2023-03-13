@@ -12,7 +12,7 @@ struct CommentService {
     static func uploadComment(comment: String, postID: String, user: User, completion: @escaping(FirestoreCompletion)) {
         
         let data: [String: Any] = ["uid": user.uid,
-                                   "comment:": comment,
+                                   "comment": comment,
                                    "timestamp": Timestamp(date: Date()),
                                    "username": user.username,
                                    "profileImageUrl": user.profileImageUrl]
