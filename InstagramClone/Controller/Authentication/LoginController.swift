@@ -105,6 +105,7 @@ class LoginController: UIViewController {
     @objc func handleShowResetPassword() {
         let controller = ResetPasswordController()
         controller.delegate = self
+        controller.email = emailTextField.text
         navigationController?.pushViewController(controller, animated: true)
     }
     
@@ -154,7 +155,7 @@ extension LoginController: FormViewModel {
 extension LoginController: ResetPasswrodControllerDelegate {
     func controllerDidSendResetPasswordLink(_ controller: ResetPasswordController) {
         navigationController?.popViewController(animated: true)
-        showMessage(withTitle: "Success",
-                    message: "We sent a link to your email to reset your password")
+        showMessage(withTitle: "성공",
+                    message: "암호를 재설정하기 위해 이메일에 링크를 보냈습니다.")
     }
 }
