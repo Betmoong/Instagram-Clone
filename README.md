@@ -18,6 +18,6 @@
 |:---:|:---:|
 |<img width="250" src="https://user-images.githubusercontent.com/100567791/226167985-58c78229-2fdb-40b4-8d0d-04d8e249a52c.gif">|<img width="250" src="https://user-images.githubusercontent.com/100567791/226168152-26235c10-b66d-47f2-98b5-e78ac27bbf5a.gif">|
 
-|게시물 업로드 필터적용|탐색 & 검색 기능|
+|게시물 업로드 & 필터 적용|탐색 & 검색 기능|
 |:---:|:---:|
 |<img width="250" src="https://user-images.githubusercontent.com/100567791/226168313-77ed6ea1-400f-4b8c-9e16-26f38d320600.gif">|<img width="250" src="https://user-images.githubusercontent.com/100567791/226168350-8088cfab-0404-428b-bdc8-03adb40d7ddf.gif">|
