@@ -93,7 +93,7 @@ class FeedController: UICollectionViewController {
                                                                action: #selector(handleLogout))
         }
        
-        navigationItem.title = "Feed"
+        navigationItem.title = "게시물"
         
         let refresher = UIRefreshControl()
         refresher.addTarget(self, action: #selector(handleRefresh), for: .valueChanged)

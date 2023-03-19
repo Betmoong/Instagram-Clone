@@ -65,7 +65,7 @@ class SearchController: UIViewController {
     
     func configureUI() {
         view.backgroundColor = .white
-        navigationItem.title = "Explore"
+        navigationItem.title = "탐색"
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -85,7 +85,7 @@ class SearchController: UIViewController {
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
         searchController.hidesNavigationBarDuringPresentation = false
-        searchController.searchBar.placeholder = "Search"
+        searchController.searchBar.placeholder = "검색"
         searchController.searchBar.delegate = self
         navigationItem.searchController = searchController
         definesPresentationContext = false
@@ -126,6 +126,9 @@ extension SearchController: UISearchBarDelegate {
         searchBar.showsCancelButton = true
         collectionView.isHidden = true
         tableView.isHidden = false
+        if let cancelButton = searchBar.value(forKey: "cancelButton") as? UIButton {
+            cancelButton.setTitle("취소", for: .normal)
+        }
     }
     
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {

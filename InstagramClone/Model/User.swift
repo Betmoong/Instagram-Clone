@@ -21,6 +21,8 @@ struct User {
     var stats: UserStats!
     
     var isCurrentUser: Bool { return Auth.auth().currentUser?.uid == uid }
+
+    var userIsFollowed = false
     
     init(dictionary: [String: Any]) {
         self.email = dictionary["email"] as? String ?? ""

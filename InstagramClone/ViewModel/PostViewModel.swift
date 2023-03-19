@@ -38,7 +38,10 @@ struct PostViewModel {
         formatter.allowedUnits = [.second, .minute, .hour, .day, .weekOfMonth]
         formatter.maximumUnitCount = 1
         formatter.unitsStyle = .full
-        return formatter.string(from: post.timestamp.dateValue(), to: Date())
+        formatter.calendar?.locale = Locale(identifier: "ko_KR")
+        
+        guard let formattedString = formatter.string(from: post.timestamp.dateValue(), to: Date()) else { return nil }
+        return "\(formattedString) 전"
     }
     
     init(post: Post) {

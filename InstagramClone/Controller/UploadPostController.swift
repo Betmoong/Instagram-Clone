@@ -32,7 +32,7 @@ class UploadPostController: UIViewController {
     
     private lazy var captionTextView: InputTextView = {
         let tv = InputTextView()
-        tv.placeholderText = "Enter caption.."
+        tv.placeholderText = "문구 입력.."
         tv.font = UIFont.systemFont(ofSize: 16)
         tv.delegate = self
         tv.placeholderShouldCenter = false
@@ -89,11 +89,11 @@ class UploadPostController: UIViewController {
     
     func configureUI() {
         view.backgroundColor = .white
-        navigationItem.title = "Upload Post"
+        navigationItem.title = "새 게시물"
         
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .cancel, target: self, action: #selector(didTapCancel))
         
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Share", style: .done, target: self, action: #selector(didTapDone))
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "공유", style: .done, target: self, action: #selector(didTapDone))
         
         view.addSubview(photoImageVIew)
         photoImageVIew.setDimensions(height: 180, width: 180)

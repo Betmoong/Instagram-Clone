@@ -39,9 +39,9 @@ class ProfileHeader: UICollectionReusableView {
     private lazy var editProfileFollowButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("Loading", for: .normal)
-        button.layer.cornerRadius = 3
+        button.layer.cornerRadius = 5
         button.layer.borderColor = UIColor.lightGray.cgColor
-        button.layer.borderWidth = 0.5
+        button.layer.borderWidth = 0
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
         button.setTitleColor(.black, for: .normal)
         button.addTarget(self, action: #selector(handleEditProfileFollowTapped), for: .touchUpInside)

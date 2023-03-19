@@ -23,6 +23,7 @@ struct NotificationViewModel {
         formatter.allowedUnits = [.second, .minute, .hour, .day, .weekOfMonth]
         formatter.maximumUnitCount = 1
         formatter.unitsStyle = .abbreviated
+        formatter.calendar?.locale = Locale(identifier: "ko_KR")
         return formatter.string(from: notification.timestamp.dateValue(), to: Date())
     }
     
@@ -40,7 +41,7 @@ struct NotificationViewModel {
     var shouldHidePostImage: Bool { return self.notification.type == .follow }
     
     var followButtonText: String {
-        return notification.userIsFollowed ? "Following" : "Follow"
+        return notification.userIsFollowed ? "팔로잉" : "팔로우"
     }
     
     var followButtonBackgroundColor: UIColor {
