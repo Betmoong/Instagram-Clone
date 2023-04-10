@@ -141,3 +141,4 @@ iOSInjectionProject/
 *.xcuserstate
 
 Photos and videos/
+GoogleService-Info.plist
